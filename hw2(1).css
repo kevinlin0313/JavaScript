@@ -1,0 +1,37 @@
+@charset="utf-8";
+@media screen and (min-width:480px){
+body{
+	display:flex;
+}
+nav{
+	display:flex;
+}
+nav div{
+	padding: 0 10px;	
+}
+nav .main{
+	position:relative;
+}
+nav .sub{
+	display:none;
+}
+nav .main:hover{
+	background-color:lightblue;
+	width:4em;
+}
+nav .main:hover .sub{
+	display:block;
+	position:absolute;
+	left:0 em; top:1.5 em;
+	width:5 em;
+	margin:0;
+	background-color:red;
+}
+nav .main:hover .sub div{
+	display:block;
+}
+nav .sub div:hover{
+	background-color:green;
+}
+
+}

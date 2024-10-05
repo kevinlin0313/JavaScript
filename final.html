@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+<div id="cover">
+	<div id="gamename">電流急急棒</div>
+	<input type="button" id="timelimit" value="限時版" onclick="version1()">
+	<input type="button" id="notimelimit" value="無限版" onclick="version2()">
+	<input type="button" id="set" value="設定" onclick="set()">
+</div>
+
+<div id="setting">
+	<div id="settitle">設定面板</div>
+	<div id="settime">請填入遊戲時間(分鐘):
+		<input type="number" min="1" max="60" id="m">
+		<input type="button" value="確認" onclick="settime()">
+	</div>
+	<div id="setdifficuty1">
+	<span>請選擇難度(決定路的寬度)</span>
+	<select id="select1">
+		<option value="1">簡單</option>
+		<option value="2" selected>適中</option>
+		<option value="3">困難</option>
+	</select>
+	</div>
+	<div id="setdifficuty2">
+	<span>請選擇難度(決定路的增減速度)</span>
+	<select id="select2">
+		<option value="1">簡單</option>
+		<option value="2" selected>適中</option>
+		<option value="3">困難</option>
+	</select>
+	</div>
+	<div id="setcolor">
+	<span>請選擇路的顏色</span>
+	<select id="select3">
+		<option value="1">紅色</option>
+		<option value="2">綠色</option>
+		<option value="3">黃色</option>
+		<option value="4">藍色</option>
+		<option value="5">紫色</option>
+	</select>
+	</div>
+	<input type="button" id="back" value="返回主畫面" onclick="back()">
+</div>
+
+<div id="game">
+	<div id="instuction">
+		<div id="points">point:<span id="point"></span></div>
+		<div id="time">time:<span id="minutes"></span>:<span id="seconds"></span></div>
+	</div>
+	<div id="container"><div id="roads"></div>
+	<div id="player" onclick="startmove()"></div></div>
+</div>
+<script type="text/javascript" src="project.js"></script>
+</body>
+</html>

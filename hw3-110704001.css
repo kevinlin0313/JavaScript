@@ -1,0 +1,11 @@
+*{text-align: center;}
+table,tr,td{
+	border:solid 2px blue;
+	border-collapse:collapse;
+}
+body nav .t1{
+	display:flex;
+}
+body nav .t2{
+	display:flex;
+}

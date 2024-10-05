@@ -1,0 +1,31 @@
+body{
+	display:flex;
+}
+#container {
+	position: relative;
+	background-color: grey;
+}
+#point{
+	position:relative;
+	width:100px;
+	height:30px;
+}
+.Brick, .Stick, .Ball {
+	position: absolute;
+	display:flex;
+}
+.Brick {
+	width:100px;
+	height:30px;
+}
+.Ball {
+	width:30px;
+	height:30px;
+	background-color:black;
+	border-radius: 100%;
+}
+.Stick {
+	width:150px;
+	height:30px;
+	background-color: blue;
+}

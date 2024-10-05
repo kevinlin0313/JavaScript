@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HW4</title>
+</head>
+<body>
+<script>
+class Shape{
+    constructor(name,sides,sidelength){
+	this.name=name;
+	this.sides=sides;
+	this.sidelength=sidelength;
+	}
+    calcPerimeter()
+	{
+	   return this.sides*this.sidelength;
+	}
+    calcArea()
+	{
+	    if(this.name=="triangle")
+		{
+		    return (this.sidelength*this.sidelength*Math.sqrt(3)/4);
+		}
+	    if(this.name=="square")
+		{
+		    return (this.sidelength*this.sidelength);
+		}
+	}
+}
+class Square extends Shape{
+   constructor(sidelength){
+	super("square",4,sidelength);
+	this.sidelength=sighlength;
+   }
+}
+class Triange extends Shape{
+   constructor(sidelength){
+	super("triangle",3,sidelength);
+	this.sidelength=sighlength;
+   }
+}
+let triangle = new Triangle(5);
+let square = new Square(10);
+document.writeln("The area of triangle : ",triangle. calcArea(),"<br>");
+documemt.writeln("The area of square is : ",square. calcArea(), "<br>");
+document.writeln("The perimeter of triangle is : ",triangle. calcPerimeter(),"<br>");
+document.writeln("The perimeter of square is : ",square. calcPerimeter());
+</script>
+</body>
+</html>

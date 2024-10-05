@@ -1,0 +1,133 @@
+body{
+	display:flex;
+}
+#cover{
+	position:absolute;
+	left:300px;
+	top:20px;
+	height:700px;
+	width:1000px;
+	background:blue;
+	margin:0px;
+	border:10px solid red;
+}
+#gamename{
+	position:absolute;
+	font-size:20ex;
+	left:150px;
+	top:50px;
+	color:yellow;
+}
+#timelimit{
+	position:absolute;
+	font-size:8ex;
+	left:100px;
+	top:400px;
+	
+}
+#notimelimit{
+	position:absolute;
+	font-size:8ex;
+	left:400px;
+	top:400px;
+}
+#set{
+	position:absolute;
+	font-size:8ex;
+	left:700px;
+	top:400px;
+}
+#setting{
+	position:absolute;
+	left:300px;
+	top:50px;
+	background:gray;
+	height:700px;
+	width:1000px;
+	border:10px solid yellow;
+}
+#settitle{
+	position:absolute;
+	left:400px;
+	top:50px;
+	font-size:8ex;
+}
+#settime{
+	position:absolute;
+	left:100px;
+	top:200px;
+	font-size:3ex;
+}
+#setdifficuty1{
+	position:absolute;
+	left:100px;
+	top:350px;
+	font-size:3ex;
+}
+#setdifficuty2{
+	position:absolute;
+	left:500px;
+	top:350px;
+	font-size:3ex;
+}
+#setcolor{
+	position:absolute;
+	left:500px;
+	top:200px;
+	font-size:3ex;
+}
+#back{
+	position:absolute;
+	left:400px;
+	top:500px;
+	font-size:4ex;
+}
+#game{
+	display:flex;
+}
+#instruction{
+	display:grid;
+}
+#container {
+	left:300px;
+	top:50px;
+	width:1200px;
+	height:750px;
+	position: absolute;
+	background-color: grey;
+	display:flex;
+}
+#player
+{
+	display:flex;
+	position:absolute;
+}
+#points{
+	position:relative;
+	display:flex;
+	font-size:6ex;
+}
+#time{
+	position:relative;
+	display:flex;
+	font-size:6ex;
+}
+.Road {
+	position:absolute;
+	display:flex;
+}
+
+.Ball {
+	width:25px;
+	height:25px;
+	background-color:black;
+	border-radius: 100%;
+	position:relative;
+	display:flex;
+	z-index:10;
+}
+#roads
+{
+	left:0px;
+	top:400px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" text="css/text" href="hw2(1).css" >
+<link rel="stylesheet" text="css/text" href="hw2(2).css" >
+<title>Homework2</title>
+<style>
+body{
+	background-color:orange;
+}
+</style>
+</head>
+<body>
+<nav>
+	<img src="nycu.png" width="100">
+	<div class="main">關於我
+		<section class="sub">
+			<div><a href="https://www.nycu.edu.tw">學校</a></div>
+			<div>學號</div>
+			<div>姓名</div>
+		</section></div>
+	<div class="main"><a href="https://e3.nycu.edu.tw">作業列表</a>
+		<section class="sub">
+			<div>作業一</div>
+			<div>作業二</div>
+			<div>作業三</div>
+		</section></div>
+	<div class="main">網路資源
+		<section class="sub">
+			<div><a href="https://www.google.com">google</a></div>
+			<div><a href="https://tw.yahoo.com">yahoo</a></div>
+		</section></div>
+</nav>
+<nav>
+	<form>
+	<div class="search">
+	<label for="search">Search:</label>
+	<input type="search" id="search" name="search">
+	<input type="submit" id="go" name="go">
+	</div>
+	</form>
+</nav>
+</body>
+</html>
+
+
+

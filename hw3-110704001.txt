@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hw3</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="hw3-110704001.css" >
+<style>
+body{
+	background-color:orange;
+}
+</style>
+</head>
+<body>
+<nav>
+<h1>Magic Game(Javascript version)</h1>
+<p>心中默想一個1到63的任意數字，不要讓我知道，但要讓我知道那個數字在哪幾張卡片</p>
+<input type="button" value="答案">
+</nav>
+<div style="padding-left:500px; padding-top:80px;">
+<script type="text/javascript" src="hw3-110704001.js"></script>
+</div>
+</body>
+</html>
